@@ -1,0 +1,14 @@
+<div class="sidebar">Sidebar</div>
+<div class="wrapper-content">
+  <nav>
+    <ul>
+      <li><a routerLink="dashboard" routerLinkActive="active">Dashboard</a></li>
+      <li><a routerLink="pagina1" routerLinkActive="active">Pagina 1</a></li>
+      <li><a routerLink="pagina2" routerLinkActive="active">Pagina 2</a></li>
+      <li><a routerLink="pagina3" routerLinkActive="active">Pagina 3</a></li>
+      <li><a (click)="logout()">logout &gt;</a></li>
+      <li class="profile">Hola {{profile.name}}!</li>
+    </ul>
+  </nav>
+  <router-outlet></router-outlet>
+</div>

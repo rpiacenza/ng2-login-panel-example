@@ -1,0 +1,29 @@
+a {
+	padding: 5px 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+a:hover {
+	background-color: #1565c0;
+	color: #fff;
+	border-color: #fff;
+}
+
+div {
+	margin-bottom: 10px;
+}
+
+label {
+	display: inline-block;
+	float: left;
+	width: 100px;
+}
+
+input {
+	border: 1px solid #ccc;
+	padding: 4px 10px;
+	border-radius: 2px;
+}
