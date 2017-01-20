@@ -7,6 +7,8 @@ la url de la api `http://api.panel.org/authenticate` debería devolver un json s
 
     `{"profile": {"name": "Rodrigo Piacenza", "email": "rpiacenza@w3sys.com.ar"}, "token": "654321598"}`
 
+!(anim.gif)
+
 Observaciones :
 - El archivo `app-routing.module.ts` contiene las entradas del router tanto del login como del panel
 - Verás que todos los accesos (excepto el ruter) sólo se aceptarán si el AuthGuard lo autoriza.
