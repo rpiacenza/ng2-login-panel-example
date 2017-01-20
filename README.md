@@ -7,7 +7,7 @@ la url de la api `http://api.panel.org/authenticate` debería devolver un json s
 
     `{"profile": {"name": "Rodrigo Piacenza", "email": "rpiacenza@w3sys.com.ar"}, "token": "654321598"}`
 
-![imagen](ng2-login-panel-example/anim.gif)
+![imagen](https://github.com/rpiacenza/ng2-login-panel-example/blob/master/anim.gif?raw=true)
 
 Observaciones :
 - El archivo `app-routing.module.ts` contiene las entradas del router tanto del login como del panel
