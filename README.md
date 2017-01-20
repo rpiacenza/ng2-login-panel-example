@@ -9,8 +9,8 @@ la url de la api `http://api.panel.org/authenticate` debería devolver un json s
 
 Observaciones :
 - El archivo `app-routing.module.ts` contiene las entradas del router tanto del login como del panel
-- Verás que todos los accesos (excepto el ruter) sólo se aceptarán si el AuthGuard lo autoriza.
-- Podrás ver la lógica del guard en `guards/auth.guard.ts`. Verás que sólo se autoriza el acceso si existe la entrada *currentUser* en localStorage. Enc aso contrario redirige al login.
+- Verás que todos los accesos (excepto el login) sólo se aceptarán si el *AuthGuard* lo autoriza.
+- Podrás ver la lógica del guard en `guards/auth.guard.ts`. Verás que sólo se autoriza el acceso si existe la entrada *currentUser* en localStorage. En caso contrario redirige al login.
 - El componente login lo entrarás en `panel/login/login.component`. Es un formulario sencillo que realiza el login consumiendo el servicio *authenticationService*
 - En `services/authentication.service.ts` encontrarás la magia ! Se consulta a la api y almacena el profile y token en a entrada *currentUser* del localStorage!!
 
