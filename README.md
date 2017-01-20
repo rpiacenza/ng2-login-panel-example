@@ -1,4 +1,4 @@
-#Git
+#Ejemplo de PANEL/LOGIN en ANGULAR 2
 *(by RMP)*
 
 ##Para Edu!
