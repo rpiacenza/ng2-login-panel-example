@@ -13,6 +13,7 @@ Observaciones :
 - Podrás ver la lógica del guard en `guards/auth.guard.ts`. Verás que sólo se autoriza el acceso si existe la entrada *currentUser* en localStorage. En caso contrario redirige al login.
 - El componente login lo entrarás en `panel/login/login.component`. Es un formulario sencillo que realiza el login consumiendo el servicio *authenticationService*
 - En `services/authentication.service.ts` encontrarás la magia ! Se consulta a la api y almacena el profile y token en a entrada *currentUser* del localStorage!!
+- Fijate que en el servicio *authenticationService* ya contiene el token y como es injectable, podrás recuperarlo en cualquier momento para hacer http requests via JWT!
 
 Espero que te sirva !!
 Cualquier duda a tu disposición !
